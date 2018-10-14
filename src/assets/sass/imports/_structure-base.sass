@@ -1,0 +1,90 @@
++make-margin()
+
+*
+  font-family: 'Roboto' !important
+  text-shadow: 0 0 0 transparent
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+  -webkit-tap-highlight-color: transparent
+  outline: none
+  -webkit-overflow-scrolling: auto
+  text-decoration: none !important
+
+html,
+body
+  margin: 0
+  height: 100vh
+  position: fixed
+  width: 100vw
+  overflow: hidden !important
+  overflow-y: hidden !important
+  overflow-x: hidden !important
+
+.popover-container
+  width: 100% !important
+
+  > input
+    border: none
+    text-align: center
+    text-transform: uppercase
+    font-size: 12px
+    background-color: #000 !important
+    color: #5493e3 !important
+    width: 100% !important
+    min-width: 100% !important
+
+.popover-content.align-left
+  &::after
+    left: 50% !important
+
+
+.vue-slider-component
+  padding: 0 !important
+
+.vue-slider-dot
+  top: -8px !important
+  width: 1.5px !important
+  height: 18px !important
+  border-radius: 0 !important
+  left: 5px !important
+  background-color: #5493e3 !important
+
+.vue-slider-process
+  background-color: #5493e3 !important
+  height: 6px !important
+  top: -2px !important
+  border-radius: 0 !important
+
+.vue-slider-tooltip-bottom
+  +transition(.5s, cubic-bezier(.77,0,.175,2))
+  bottom: 24px !important
+
+.vue-slider-tooltip-top
+  +transition(.5s, cubic-bezier(.77,0,.175,2))
+  top: 24px !important
+
+.vue-slider-tooltip-bottom-moving
+  bottom: -7px !important
+
+.vue-slider-tooltip-top-moving
+  top: -7px !important
+
+.vue-slider-tooltip
+  +flex(row, n, center, center)
+  padding: none !important
+  background-color: #5493e3 !important
+  border: none !important
+  border-radius: 11px !important
+  font-size: 10px !important
+  min-height: 30px
+  min-width: 30px
+
+  &::before
+    border: none !important
+
+.vue-slider-piecewise-item
+  height: 5px !important
+  width: 5px !important
+  top: -1.7px !important
+  border-radius: 50%
+  border: 1px solid #fff
+  background-color: #ccc
