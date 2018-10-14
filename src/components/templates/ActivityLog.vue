@@ -1,5 +1,5 @@
 <template lang="pug">
-h1 merda5
+  h1 merda5 {{$t('lala')}}
 </template>
 
 <script>

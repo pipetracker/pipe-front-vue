@@ -1,5 +1,5 @@
-// import bla from './bla'
+import ActivityLog from './ActivityLog'
 
-// export {
-//   bla
-// }
+export {
+  ActivityLog
+}
