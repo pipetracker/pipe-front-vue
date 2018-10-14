@@ -39,5 +39,5 @@ export default {
 </script>
 
 <style lang="sass">
-// @import ../assets/sass/
+@import ../assets/sass/pipetracker
 </style>
